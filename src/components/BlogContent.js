@@ -1,10 +1,10 @@
 import React from "react";
 
-function BlogContent(props) {
- return <div id="blog-content">{props.articleText}</div>;
-}
+//function BlogContent(props) {
+// return <div id="blog-content">{props.articleText}</div>;
+//}
 
-/*function BlogContent(props){
+function BlogContent(props){
   console.log(props);
 
   if(!props.isPublished){
@@ -20,6 +20,6 @@ function BlogContent(props) {
       </div>
     );
   }
-}*/
+}
 
 export default BlogContent;
